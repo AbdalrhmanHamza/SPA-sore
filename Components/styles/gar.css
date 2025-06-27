@@ -1,0 +1,69 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Forum&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap");
+@layer reset, theme, global, layout, modules, utilities;
+
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+} */
+/* font-family: "Concert One", sans-serif; */
+
+/* @layer theme {
+  :root {
+    --font-family: "Segoe UI", Tahoma, Verdana, "Lato", sans-serif;
+    --primary-color: #000000ee;
+    --secondary-color: #184129;
+    --accent-color: #e74c3c;
+    --background-color: #ecf0f1;
+    --text-color: #0c0c0c;
+    --landing-content-bg-color: #fff3e3;
+    --landing-content-text-color: #b88e2f;
+    --buy-btn-hover: #c49f47f8;
+    --head-bg-color: #ffffff;
+    --highlighted-sections: #fcf8f3;
+    --grayed-text: #3a3a3a;
+    --grayed-paragraph: #616161;
+    --grayed-paragraph-dark: #333333;
+    --explore-btn-bg-color: #b88e2f;
+    --explore-btn-bg-color-hover: #c4a04c;
+    --grayed-border: #d9d9d9;
+  }
+} */
+
+/* @layer global {
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  a:hover {
+    color: var(--primary-color);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    color: var(--text-color);
+  }
+  p {
+    text-align: left;
+  }
+} */

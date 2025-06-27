@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Components/styles/shop.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
+    <link rel="preload" href="./public/Landing-sec-bg.png" as="image" />
+
+    <meta name="theme-color" content="" />
+    <title>Asteroids Store</title>
+    <style></style>
+  </head>
+  <body>
+    <!-- header -->
+    <template id="header">
+      <header class="sotre-header">
+        <div class="header-container">
+          <div class="logo">
+            <a href="/" class="nav-link logo-link">
+              <img
+                class="logo-img"
+                src="./public/Logo.svg"
+                alt="Asteroids Store Logo"
+              />
+            </a>
+          </div>
+          <nav class="nav-bar">
+            <ul>
+              <li><a class="nav-link" href="/">Home</a></li>
+              <li><a class="nav-link" href="/shop">Shop</a></li>
+              <li><a class="nav-link" href="/about">About</a></li>
+              <li><a class="nav-link" href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="state-info">
+            <ul class="state-info-list">
+              <li>
+                <a href="/user" class="info-link nav-link"
+                  ><img src="./public/info-account.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="" class="info-link nav-link"
+                  ><img src="./public/info-search.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="/saved" class="info-link nav-link"
+                  ><img src="./public/infor-heart.svg" alt="" />
+                  <span class="badge-count">9+</span>
+                </a>
+              </li>
+              <li>
+                <a href="/cart" class="info-link nav-link"
+                  ><img src="./public/info-cart.svg" alt="" />
+                  <span class="badge-count">5</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </template>
+
+    <!-- main Content -->
+    <main id="main-section" class="main-section"></main>
+
+    <!-- Home Page -->
+    <template id="home">
+      <div class="landing-sec">
+        <div class="landing-content">
+          <span class="new-arive">New Arrival</span>
+          <h1 class="landing-content-heading">
+            Discover Our <br />
+            New Collection
+          </h1>
+          <p class="desc-span-dark desc-span">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vitae
+            iure voluptatem adipisci aperiam quidem atque velit cupiditate?
+          </p>
+          <a class="buy-btn-link nav-link" href="/shop">Buy Now</a>
+        </div>
+      </div>
+      <!-- second-section -->
+      <section class="browse-section">
+        <div class="browse-heading">
+          <h2 class="browse-range-heading">Browse The Range</h2>
+          <span class="desc-span">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </span>
+        </div>
+        <div class="browse-gallery">
+          <figure>
+            <div class="img-container-gallery">
+              <img
+                class="browse-img"
+                src="./public/browse-gallery-mat.png"
+                alt="Browse Image 1"
+              />
+              <div class="overlay">
+                <a href="/shop/bedrooom" class="shop-btn nav-link">Shop</a>
+              </div>
+            </div>
+            <figcaption class="browse-caption">Dining</figcaption>
+          </figure>
+          <figure>
+            <div class="img-container-gallery">
+              <img
+                class="browse-img"
+                src="./public/browse-gallery-chair.png"
+                alt="Browse Image 1"
+              />
+              <div class="overlay">
+                <a href="/shop/bedrooom" class="shop-btn nav-link">Shop</a>
+              </div>
+            </div>
+            <figcaption class="browse-caption">Living</figcaption>
+          </figure>
+          <figure>
+            <div class="img-container-gallery">
+              <img
+                class="browse-img"
+                src="./public/browse-gallery-vas.png"
+                alt="Browse Image 1"
+              />
+              <div class="overlay">
+                <a href="/shop/bedrooom" class="shop-btn nav-link">Shop</a>
+              </div>
+            </div>
+            <figcaption class="browse-caption">Bedroom</figcaption>
+          </figure>
+        </div>
+      </section>
+      <!-- our products section -->
+      <section class="our-products">
+        <h2 class="browse-range-heading our-products-heading">Our Products</h2>
+        <products-component></products-component>
+        <div class="show-more-button">
+          <a href="/shop" class="show-more-btn nav-link">Show More</a>
+        </div>
+      </section>
+      <section class="inspir-sec">
+        <div class="inspir-container">
+          <div class="inspir-content">
+            <div class="inspir-description">
+              <h2 class="inspir-desc-heading">
+                50+ Beautiful rooms <br />
+                inspiration
+              </h2>
+              <p class="inspi-desc-para desc-span">
+                Our designer already made a lot of beautiful <br />
+                prototipe of rooms that inspire you
+              </p>
+              <a href="/shop" class="inspir-explore-btn nav-link"
+                >Explore More</a
+              >
+            </div>
+          </div>
+          <!-- carousel -->
+          <section class="carousel-layout embla">
+            <!-- cards -->
+            <div class="carousel-cards embla__container">
+              <!--  -->
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/2156/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-card embla__slide">
+                <div class="carousel-pic">
+                  <img
+                    src="https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="carousel image"
+                  />
+                </div>
+                <div class="card-desc">
+                  <div class="product-desc">
+                    <h2 class="carousel-product-heading">
+                      Device Name from Mars and asteroids belt
+                    </h2>
+                    <p class="product-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <ul class="features">
+                    <li>Wireless connection</li>
+                    <li>Very very fast</li>
+                    <li>could fly up to 4 hours</li>
+                    <li>could reach a height of 9km</li>
+                  </ul>
+                  <div class="pricing">
+                    <div class="prices">
+                      <span class="price pf">$999.99</span>
+                      <span class="old-price pf"><s>$1999.99</s></span>
+                    </div>
+                    <a href="" class="buy-carousel-btn">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <!-- controlls -->
+            <div class="embla__controls">
+              <div class="carousel-controls embla__buttons">
+                <button
+                  class="carousel-button prev-button embla__button embla__prev"
+                >
+                  <svg width="22" height="22" viewBox="-11 -13 22 26">
+                    <polyline
+                      points="6,10 -6,0 6,-10"
+                      fill="none"
+                      stroke="#2f2f2f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <div class="carousel-indicator"></div>
+                <button
+                  class="carousel-button next-button embla__button embla__next"
+                >
+                  <svg width="22" height="22" viewBox="-11 -13 22 26">
+                    <polyline
+                      points="-6,-10 6,0 -6,10"
+                      fill="none"
+                      stroke="#2f2f2f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <!-- --- -->
+          </section>
+        </div>
+      </section>
+    </template>
+
+    <!-- Shop Page -->
+    <template id="shop">
+      <div class="shop-container"></div>
+    </template>
+
+    <!-- About Page -->
+    <template id="about">
+      <breadcrumb-component data-title="about"></breadcrumb-component>
+    </template>
+
+    <!-- footer sec -->
+    <template id="footer-sec">
+      <footer class="footer-sec">
+        <div class="footer-grid-layout">
+          <!--  -->
+          <div class="main-footer-sec">
+            <h1 class="footer-heading">Funiro.</h1>
+            <address>
+              <span class="address">
+                400 University Drive Suite 200 Coral <br />
+                Gables, <br />
+                FL 33134 USA
+              </span>
+            </address>
+          </div>
+          <!--  -->
+          <div class="main-footer-links">
+            <div class="footer-links">
+              <h3 class="footer-link-heading">Links</h3>
+              <ul class="footer-links-list">
+                <li>
+                  <a href="/" class="footer-link nav-link">Home</a>
+                </li>
+                <li>
+                  <a href="/shop" class="footer-link nav-link">Shop</a>
+                </li>
+                <li>
+                  <a href="/about" class="footer-link nav-link">About</a>
+                </li>
+                <li>
+                  <a href="/contact" class="footer-link nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-links">
+              <h3 class="footer-link-heading">Links</h3>
+              <ul class="footer-links-list">
+                <li>
+                  <a href="/shop" class="footer-link nav-link"
+                    >Payment Options</a
+                  >
+                </li>
+                <li>
+                  <a href="/shop" class="footer-link nav-link">Returns</a>
+                </li>
+                <li>
+                  <a href="/about" class="footer-link nav-link"
+                    >Privacy Policies</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="footer-Help"></div> -->
+          </div>
+          <!--  -->
+          <div class="news-letter">
+            <h3 class="footer-link-heading">Newsletter</h3>
+            <form action="" class="news-subscribe">
+              <input
+                type="email"
+                class="news-input"
+                placeholder="Enter your Email Address"
+                required
+              />
+              <button type="submit" class="news-btn">Subscribe</button>
+            </form>
+          </div>
+          <!--  -->
+          <div class="copy-right">
+            <p class="copy-right-para">
+              © 2023 furino. All rights reverved. Made by
+              <span class="me">Abdalrhman Hamza.</span>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </template>
+
+    <!-- products sec -->
+    <template id="products-sec">
+      <div class="products-container">
+        <div class="products-layout">
+          <!-- products cards -->
+        </div>
+      </div>
+    </template>
+
+    <!-- Product Page -->
+    <template id="product-page">
+      <div class="product-page-container"></div>
+    </template>
+
+    <!-- product component at the product page -->
+    <template id="product-purchase-component">
+      <div class="product-view-container">
+        <!-- product images -->
+        <div class="product-images-container">
+          <div class="product-images">
+            <!-- Product image thumbnails go here -->
+          </div>
+          <div class="product-current-image-container">
+            <img
+              src=""
+              alt="Current Product Image"
+              class="product-current-image"
+            />
+          </div>
+        </div>
+        <!-- product info -->
+        <div class="product-info-container">
+          <div class="product-text-info">
+            <div class="product-text">
+              <h1 class="product-title">
+                <!-- place holder for product title -->
+              </h1>
+              <h3 class="product-price-info">
+                <!-- place holder for product price -->
+              </h3>
+              <div class="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <p class="product-description">
+              <!-- Product description goes here -->
+            </p>
+          </div>
+          <!-- product size info -->
+          <div class="product-size-info">
+            <h4 class="product-size-title">Size</h4>
+            <ul class="size-options select-unit size-selector" data-unit="size">
+              <!-- place holder for product sizes -->
+            </ul>
+          </div>
+          <!-- product color info -->
+          <div class="product-size-info">
+            <h4 class="product-size-title">Color</h4>
+            <ul
+              class="size-options color-options select-unit"
+              data-unit="color"
+            >
+              <!-- place holder for product colors -->
+            </ul>
+          </div>
+          <!-- purchase info -->
+          <div class="purchase-info">
+            <!-- change quantity -->
+            <div class="quantity-info">
+              <button class="change-q increment">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+              <span class="quantity-value">1</span>
+              <button class="change-q decrement">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+            </div>
+            <div class="cta-product-c-buttons">
+              <!-- add to cart button -->
+              <div class="product-btns cart-btn">
+                <button class="add-to-cart-btn add-to-cart-component-btn">
+                  <i class="fa-regular fa-cart-plus"></i
+                  ><span>Add to cart</span>
+                </button>
+              </div>
+              <!-- compare button -->
+              <div class="product-btns compare-btn">
+                <button class="add-to-cart-btn compare-component-btn">
+                  <i class="fa-solid fa-plus"></i><span>Compare</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- Component Info and description at the Product page -->
+    <template id="product-info-component">
+      <div class="product-info-container-p">
+        <div class="product-info-navigator">
+          <ul class="product-info-nav-list">
+            <li>
+              <a href="/description" class="description info-link info-active"
+                >Description</a
+              >
+            </li>
+            <li>
+              <a href="/additional-info" class="additional-info info-link"
+                >Additional information</a
+              >
+            </li>
+            <li>
+              <a href="/description" class="reviews info-link">Reviews</a>
+            </li>
+          </ul>
+        </div>
+        <!-- product-info -->
+        <div class="product-info-viewer-container-p"></div>
+      </div>
+    </template>
+
+    <!-- breadcrumb component -->
+    <template id="breadcrumb">
+      <div class="breadcrumb-header">
+        <div class="breadcrumb-header-layout">
+          <h1 class="breadcrumb-head"></h1>
+          <div class="bread-crumb">
+            <ul class="bread-crumb-list">
+              <li class="bread-crumb-item-static">
+                <a href="/" class="bread-crumb-link nav-link">Home</a>
+              </li>
+              <li class="bread-crumb-icon">
+                <svg
+                  class="arrow-right"
+                  focusable="false"
+                  aria-hidden="true"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  ></path>
+                </svg>
+              </li>
+              <li class="bread-crumb-item"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- Filter Component -->
+    <template id="filter">
+      <div class="filter-container">
+        <div class="filter-items">
+          <!-- ----------- -->
+          <!-- filter -->
+          <div class="filter-view">
+            <div class="filter-el">
+              <button class="filter-btn filter-item-btn">
+                <i class="fa-light fa-sliders"></i>
+                Filter
+              </button>
+              <div class="filters-container hidden animate-blur">
+                <div class="filters-items">
+                  <!-- Category filter -->
+                  <div class="category-filter">
+                    <h3 class="filter-head">Category</h3>
+                    <!-- --- -->
+                    <div class="category-selector" data-type="category">
+                      <button class="category-select">
+                        <span class="select-category"> Select category </span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-chevron-down size-4 opacity-50"
+                          aria-hidden="true"
+                        >
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                      </button>
+                      <ul class="category-list hidden">
+                        <li class="category-item">All</li>
+                        <li class="category-item">Sofa</li>
+                        <li class="category-item">Chair</li>
+                        <li class="category-item">Table</li>
+                        <li class="category-item">Bed</li>
+                      </ul>
+                    </div>
+                    <!-- ---- -->
+                  </div>
+                  <!-- Style Filter -->
+                  <div class="category-filter">
+                    <h3 class="filter-head">Style</h3>
+                    <!-- --- -->
+                    <div class="category-selector" data-type="style">
+                      <button class="category-select">
+                        <span class="select-category"> Select style </span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-chevron-down size-4 opacity-50"
+                          aria-hidden="true"
+                        >
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                      </button>
+                      <ul class="category-list hidden">
+                        <li class="category-item">All</li>
+                        <li class="category-item">Classic</li>
+                        <li class="category-item">Modern</li>
+                        <li class="category-item">Rustic</li>
+                        <li class="category-item">Minimalist</li>
+                        <li class="category-item">Traditional</li>
+                        <li class="category-item">Victorian</li>
+                        <li class="category-item">Coastal</li>
+                      </ul>
+                    </div>
+                    <!-- ---- -->
+                  </div>
+                  <!-- price filter -->
+                  <div class="price-filter">
+                    <div class="price-filter-head">
+                      <h3 class="filter-head">Price range</h3>
+                      <p class="price-desc">The average price is $499</p>
+                    </div>
+                    <div class="price-range-container">
+                      <!-- slider -->
+                      <div class="price-range-slider">
+                        <div class="range-price-container">
+                          <div class="min-price price-dragger">
+                            <div class="price-change-btn change-btn">
+                              <span class="price-value"></span>
+                            </div>
+                          </div>
+                          <div class="max-price price-dragger">
+                            <div class="price-change-btn change-btn">
+                              <span class="price-value"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- info -->
+                      <div class="price-range-info">
+                        <div class="price-container">
+                          <div class="min-price-input price-input-container">
+                            <input
+                              type="text"
+                              class="min-price-input price-input"
+                            />
+                            <span class="pipe"></span>
+                            <span class="currency-symbol">$</span>
+                          </div>
+                          <span class="error-msg"></span>
+                        </div>
+                        <span class="connect-line"></span>
+                        <div class="price-container">
+                          <div class="max-price-input price-input-container">
+                            <input
+                              type="text"
+                              class="max-price-input price-input"
+                            />
+                            <span class="pipe"></span>
+                            <span class="currency-symbol">$</span>
+                          </div>
+                          <span class="error-msg"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filter-submit">
+                      <button class="filter-submit-btn">Filter</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- view -->
+            <div class="view-grid-list">
+              <button class="grid-view-btn filter-btn">
+                <i class="fa-solid fa-grid-2"></i>
+              </button>
+              <button class="grid-view-btn filter-btn">
+                <i class="fa-regular fa-list-ul"></i>
+              </button>
+            </div>
+            <span class="pipe"></span>
+            <!-- ------------------ -->
+            <div class="filter-sort"></div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- Card Item -->
+    <template id="product-card">
+      <div class="product-card">
+        <div class="product-picture">
+          <img class="product-img" src="" alt="Product 1" />
+          <button class="love-btn">
+            <img src="./public/infor-heart.svg" alt="" />
+          </button>
+          <div class="badge"></div>
+        </div>
+        <div class="details">
+          <a href="" class="product-link nav-link">
+            <h3 class="product-name"></h3>
+          </a>
+          <span class="product-desc"></span>
+          <div class="product-price">
+            <span class="discounted-price"></span>
+            <span class="old-price"></span>
+          </div>
+          <div class="product-btns">
+            <button class="add-to-cart-btn">
+              <i class="fa-regular fa-cart-plus"></i><span>Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- pagination -->
+    <template id="pagination">
+      <!-- <pagination-component range="1-12"></pagination-component> -->
+      <div class="pag-items">
+        <div class="pag-item pag-item-prev">
+          <a href="" class="pag-link-prev nav-link">Previous</a>
+        </div>
+        <ul class="pag-items-list">
+          <!-- placeholder -->
+        </ul>
+        <div class="pag-item pag-item-next">
+          <a href="" class="pag-link-next nav-link">Next</a>
+        </div>
+      </div>
+    </template>
+
+    <!-- Features -->
+    <template id="features">
+      <div class="features-container">
+        <div class="feature-items-container">
+          <div class="quality feature">
+            <div class="feature-icon">
+              <i class="fa-light fa-trophy-star features-icon"></i>
+            </div>
+            <div class="feature-info">
+              <h2 class="feature-title">High Quality</h2>
+              <p class="feature-description">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="warrenty feature">
+            <div class="feature-icon">
+              <i class="fa-regular fa-badge-check features-icon"></i>
+            </div>
+            <div class="feature-info">
+              <h2 class="feature-title">Warrenty Protection</h2>
+              <p class="feature-description">Over 2 years</p>
+            </div>
+          </div>
+          <div class="shipping feature">
+            <div class="feature-icon">
+              <i class="fa-regular fa-gifts features-icon"></i>
+            </div>
+            <div class="feature-info">
+              <h2 class="feature-title">Free Shipping</h2>
+              <p class="feature-description">Order over 150 $</p>
+            </div>
+          </div>
+          <div class="support feature">
+            <div class="feature-icon">
+              <i class="fa-regular fa-user-headset features-icon"></i>
+            </div>
+            <div class="feature-info">
+              <h2 class="feature-title">24 / 7 Support</h2>
+              <p class="feature-description">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <script src="./app.js" defer type="module"></script>
+  </body>
+</html>

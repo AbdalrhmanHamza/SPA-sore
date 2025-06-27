@@ -1,0 +1,2969 @@
+[
+  {
+    "category": "Sofa",
+    "products": [
+      {
+        "id": "sofa-001",
+        "name": "Luxury Modern Sofa",
+        "description": "A stylish and comfortable modern sofa for your living room.",
+        "price": 899.99,
+        "oldPrice": 1099.99,
+        "image": "https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "reviews": 210,
+        "tags": ["furniture", "living room", "sofa"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "3-Seater",
+          "style": "Contemporary",
+          "material": "Leather",
+          "dimensions": "85x35x34 inches",
+          "weight": "180 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": false,
+          "features": ["Removable covers", "Adjustable headrest"]
+        },
+        "colors": [
+          { "hex": "#2E2E2E", "available": true },
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#0065165", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#2E2E2E",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          },
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true },
+          { "size": "XXL", "available": false }
+        ]
+      },
+      {
+        "id": "sofa-002",
+        "name": "Classic Velvet Sofa",
+        "description": "A classic velvet sofa with elegant design and plush comfort.",
+        "price": 749.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.3,
+        "reviews": 98,
+        "tags": ["furniture", "velvet", "classic"],
+        "available": true,
+        "style": "modern",
+        "charac": {
+          "size": "2-Seater",
+          "style": "Classic",
+          "material": "Velvet",
+          "dimensions": "70x32x32 inches",
+          "weight": "120 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tufted back", "Solid wood legs"]
+        },
+        "colors": [
+          { "hex": "#4B0082", "available": true },
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#4B0082",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": false },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "sofa-001",
+        "name": "Luxury Modern Sofa",
+        "description": "A stylish and comfortable modern sofa for your living room.",
+        "price": 899.99,
+        "oldPrice": 1099.99,
+        "image": "https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "reviews": 210,
+        "tags": ["furniture", "living room", "sofa"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "3-Seater",
+          "style": "Contemporary",
+          "material": "Leather",
+          "dimensions": "85x35x34 inches",
+          "weight": "180 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": false,
+          "features": ["Removable covers", "Adjustable headrest"]
+        },
+        "colors": [
+          { "hex": "#2E2E2E", "available": true },
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#2E2E2E",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          },
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "sofa-002",
+        "name": "Classic Velvet Sofa",
+        "description": "A classic velvet sofa with elegant design and plush comfort.",
+        "price": 749.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.3,
+        "reviews": 98,
+        "tags": ["furniture", "velvet", "classic"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "2-Seater",
+          "style": "Classic",
+          "material": "Velvet",
+          "dimensions": "70x32x32 inches",
+          "weight": "120 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tufted back", "Solid wood legs"]
+        },
+        "colors": [
+          { "hex": "#4B0082", "available": true },
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#4B0082",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": false },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "sofa-001",
+        "name": "Luxury Modern Sofa",
+        "description": "A stylish and comfortable modern sofa for your living room.",
+        "price": 899.99,
+        "oldPrice": 1099.99,
+        "image": "https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "reviews": 210,
+        "tags": ["furniture", "living room", "sofa"],
+        "available": true,
+        "style": "modern",
+        "charac": {
+          "size": "3-Seater",
+          "style": "Contemporary",
+          "material": "Leather",
+          "dimensions": "85x35x34 inches",
+          "weight": "180 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": false,
+          "features": ["Removable covers", "Adjustable headrest"]
+        },
+        "colors": [
+          { "hex": "#2E2E2E", "available": true },
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#2E2E2E",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          },
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "sofa-002",
+        "name": "Classic Velvet Sofa",
+        "description": "A classic velvet sofa with elegant design and plush comfort.",
+        "price": 749.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.3,
+        "reviews": 98,
+        "tags": ["furniture", "velvet", "classic"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "2-Seater",
+          "style": "Classic",
+          "material": "Velvet",
+          "dimensions": "70x32x32 inches",
+          "weight": "120 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tufted back", "Solid wood legs"]
+        },
+        "colors": [
+          { "hex": "#4B0082", "available": true },
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#4B0082",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": false },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "sofa-001",
+        "name": "Luxury Modern Sofa",
+        "description": "A stylish and comfortable modern sofa for your living room.",
+        "price": 899.99,
+        "oldPrice": 1099.99,
+        "image": "https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "reviews": 210,
+        "tags": ["furniture", "living room", "sofa"],
+        "available": true,
+        "style": "modern",
+        "charac": {
+          "size": "3-Seater",
+          "style": "Contemporary",
+          "material": "Leather",
+          "dimensions": "85x35x34 inches",
+          "weight": "180 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": false,
+          "features": ["Removable covers", "Adjustable headrest"]
+        },
+        "colors": [
+          { "hex": "#2E2E2E", "available": true },
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#2E2E2E",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          },
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "sofa-002",
+        "name": "Classic Velvet Sofa",
+        "description": "A classic velvet sofa with elegant design and plush comfort.",
+        "price": 749.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.3,
+        "reviews": 98,
+        "tags": ["furniture", "velvet", "classic"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "2-Seater",
+          "style": "Classic",
+          "material": "Velvet",
+          "dimensions": "70x32x32 inches",
+          "weight": "120 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tufted back", "Solid wood legs"]
+        },
+        "colors": [
+          { "hex": "#4B0082", "available": true },
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#4B0082",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": false },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "sofa-001",
+        "name": "Luxury Modern Sofa",
+        "description": "A stylish and comfortable modern sofa for your living room.",
+        "price": 899.99,
+        "oldPrice": 1099.99,
+        "image": "https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "reviews": 210,
+        "tags": ["furniture", "living room", "sofa"],
+        "available": true,
+        "style": "modern",
+        "charac": {
+          "size": "3-Seater",
+          "style": "Contemporary",
+          "material": "Leather",
+          "dimensions": "85x35x34 inches",
+          "weight": "180 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": false,
+          "features": ["Removable covers", "Adjustable headrest"]
+        },
+        "colors": [
+          { "hex": "#2E2E2E", "available": true },
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#2E2E2E",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          },
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "sofa-002",
+        "name": "Classic Velvet Sofa",
+        "description": "A classic velvet sofa with elegant design and plush comfort.",
+        "price": 749.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.3,
+        "reviews": 98,
+        "tags": ["furniture", "velvet", "classic"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "2-Seater",
+          "style": "Classic",
+          "material": "Velvet",
+          "dimensions": "70x32x32 inches",
+          "weight": "120 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tufted back", "Solid wood legs"]
+        },
+        "colors": [
+          { "hex": "#4B0082", "available": true },
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#4B0082",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": false },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "sofa-001",
+        "name": "Luxury Modern Sofa",
+        "description": "A stylish and comfortable modern sofa for your living room.",
+        "price": 899.99,
+        "oldPrice": 1099.99,
+        "image": "https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "reviews": 210,
+        "tags": ["furniture", "living room", "sofa"],
+        "available": true,
+        "style": "modern",
+        "charac": {
+          "size": "3-Seater",
+          "style": "Contemporary",
+          "material": "Leather",
+          "dimensions": "85x35x34 inches",
+          "weight": "180 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": false,
+          "features": ["Removable covers", "Adjustable headrest"]
+        },
+        "colors": [
+          { "hex": "#2E2E2E", "available": true },
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#2E2E2E",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          },
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "sofa-002",
+        "name": "Classic Velvet Sofa",
+        "description": "A classic velvet sofa with elegant design and plush comfort.",
+        "price": 749.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.3,
+        "reviews": 98,
+        "tags": ["furniture", "velvet", "classic"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "2-Seater",
+          "style": "Classic",
+          "material": "Velvet",
+          "dimensions": "70x32x32 inches",
+          "weight": "120 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tufted back", "Solid wood legs"]
+        },
+        "colors": [
+          { "hex": "#4B0082", "available": true },
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#4B0082",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": false },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "sofa-001",
+        "name": "Luxury Modern Sofa",
+        "description": "A stylish and comfortable modern sofa for your living room.",
+        "price": 899.99,
+        "oldPrice": 1099.99,
+        "image": "https://images.pexels.com/photos/37648/prairie-highway-the-scenery-mountain-37648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.7,
+        "reviews": 210,
+        "tags": ["furniture", "living room", "sofa"],
+        "available": true,
+        "style": "rustic",
+        "charac": {
+          "size": "3-Seater",
+          "style": "Contemporary",
+          "material": "Leather",
+          "dimensions": "85x35x34 inches",
+          "weight": "180 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": false,
+          "features": ["Removable covers", "Adjustable headrest"]
+        },
+        "colors": [
+          { "hex": "#2E2E2E", "available": true },
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#2E2E2E",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          },
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "sofa-002",
+        "name": "Classic Velvet Sofa",
+        "description": "A classic velvet sofa with elegant design and plush comfort.",
+        "price": 749.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.3,
+        "reviews": 98,
+        "tags": ["furniture", "velvet", "classic"],
+        "available": true,
+        "style": "modern",
+        "charac": {
+          "size": "2-Seater",
+          "style": "Classic",
+          "material": "Velvet",
+          "dimensions": "70x32x32 inches",
+          "weight": "120 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tufted back", "Solid wood legs"]
+        },
+        "colors": [
+          { "hex": "#4B0082", "available": true },
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#4B0082",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": false },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Chair",
+    "products": [
+      {
+        "id": "chair-001",
+        "name": "Ergonomic Office Chair",
+        "description": "A high-back ergonomic chair for comfortable office work.",
+        "price": 299.99,
+        "oldPrice": 399.99,
+        "image": "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg",
+        "rating": 4.6,
+        "reviews": 150,
+        "tags": ["furniture", "office", "ergonomic"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Standard",
+          "style": "Modern",
+          "material": "Mesh",
+          "dimensions": "24x24x45 inches",
+          "weight": "35 lbs",
+          "warranty": "5 years",
+          "assemblyRequired": true,
+          "features": ["Adjustable height", "Lumbar support"]
+        },
+        "colors": [
+          { "hex": "#000000", "available": true },
+          { "hex": "#808080", "available": true },
+          { "hex": "#FFFFFF", "available": false }
+        ],
+        "images": [
+          {
+            "color": "#000000",
+            "images": [
+              "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "chair-002",
+        "name": "Minimalist Dining Chair",
+        "description": "A minimalist dining chair with a sleek wooden frame.",
+        "price": 119.99,
+        "oldPrice": 159.99,
+        "image": "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg",
+        "rating": 4.1,
+        "reviews": 45,
+        "tags": ["furniture", "dining", "minimalist"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Standard",
+          "style": "Minimalist",
+          "material": "Wood",
+          "dimensions": "18x18x34 inches",
+          "weight": "15 lbs",
+          "warranty": "1 year",
+          "assemblyRequired": false,
+          "features": ["Lightweight", "Stackable"]
+        },
+        "colors": [
+          { "hex": "#A0522D", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#A0522D",
+            "images": [
+              "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "table",
+    "products": [
+      {
+        "id": "table-001",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-002",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-003",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-004",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-005",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-006",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-007",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-008",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-009",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "classic",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-010",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-011",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-012",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-013",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-014",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-015",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-002",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-016",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-017",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-018",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-019",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-020",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-021",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-022",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-023",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-024",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-025",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-026",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-027",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-028",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-029",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "table-030",
+        "name": "Modern Coffee Table",
+        "description": "A modern coffee table with tempered glass top.",
+        "price": 249.99,
+        "oldPrice": 349.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.4,
+        "reviews": 67,
+        "tags": ["furniture", "living room", "table"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Medium",
+          "style": "Modern",
+          "material": "Glass & Metal",
+          "dimensions": "40x20x18 inches",
+          "weight": "40 lbs",
+          "warranty": "2 years",
+          "assemblyRequired": true,
+          "features": ["Tempered glass", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#C0C0C0", "available": true },
+          { "hex": "#000000", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#C0C0C0",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "table-031",
+        "name": "Rustic Dining Table",
+        "description": "A rustic dining table made from reclaimed wood.",
+        "price": 599.99,
+        "oldPrice": 799.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 134,
+        "tags": ["furniture", "dining", "rustic"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Large",
+          "style": "Rustic",
+          "material": "Reclaimed Wood",
+          "dimensions": "72x36x30 inches",
+          "weight": "120 lbs",
+          "warranty": "4 years",
+          "assemblyRequired": true,
+          "features": ["Expandable", "Eco-friendly"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Bed",
+    "products": [
+      {
+        "id": "bed-101",
+        "name": "King Size Platform Bed",
+        "description": "A sturdy king size platform bed with storage drawers.",
+        "price": 999.99,
+        "oldPrice": 1299.99,
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg",
+        "rating": 4.9,
+        "reviews": 320,
+        "tags": ["furniture", "bedroom", "king"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "King",
+          "style": "Modern",
+          "material": "Wood",
+          "dimensions": "76x80 inches",
+          "weight": "200 lbs",
+          "warranty": "5 years",
+          "assemblyRequired": true,
+          "features": ["Headboard", "Storage drawers"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-102",
+        "name": "Queen Upholstered Bed",
+        "description": "A queen size upholstered bed with a soft headboard.",
+        "price": 699.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.2,
+        "reviews": 88,
+        "tags": ["furniture", "bedroom", "queen"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Queen",
+          "style": "Contemporary",
+          "material": "Fabric",
+          "dimensions": "60x80 inches",
+          "weight": "160 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": true,
+          "features": ["Upholstered headboard", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-101",
+        "name": "King Size Platform Bed",
+        "description": "A sturdy king size platform bed with storage drawers.",
+        "price": 999.99,
+        "oldPrice": 1299.99,
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg",
+        "rating": 4.9,
+        "reviews": 320,
+        "tags": ["furniture", "bedroom", "king"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "King",
+          "style": "Modern",
+          "material": "Wood",
+          "dimensions": "76x80 inches",
+          "weight": "200 lbs",
+          "warranty": "5 years",
+          "assemblyRequired": true,
+          "features": ["Headboard", "Storage drawers"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-102",
+        "name": "Queen Upholstered Bed",
+        "description": "A queen size upholstered bed with a soft headboard.",
+        "price": 699.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.2,
+        "reviews": 88,
+        "tags": ["furniture", "bedroom", "queen"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Queen",
+          "style": "Contemporary",
+          "material": "Fabric",
+          "dimensions": "60x80 inches",
+          "weight": "160 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": true,
+          "features": ["Upholstered headboard", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-101",
+        "name": "King Size Platform Bed",
+        "description": "A sturdy king size platform bed with storage drawers.",
+        "price": 999.99,
+        "oldPrice": 1299.99,
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg",
+        "rating": 4.9,
+        "reviews": 320,
+        "tags": ["furniture", "bedroom", "king"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "King",
+          "style": "Modern",
+          "material": "Wood",
+          "dimensions": "76x80 inches",
+          "weight": "200 lbs",
+          "warranty": "5 years",
+          "assemblyRequired": true,
+          "features": ["Headboard", "Storage drawers"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-102",
+        "name": "Queen Upholstered Bed",
+        "description": "A queen size upholstered bed with a soft headboard.",
+        "price": 699.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.2,
+        "reviews": 88,
+        "tags": ["furniture", "bedroom", "queen"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Queen",
+          "style": "Contemporary",
+          "material": "Fabric",
+          "dimensions": "60x80 inches",
+          "weight": "160 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": true,
+          "features": ["Upholstered headboard", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-101",
+        "name": "King Size Platform Bed",
+        "description": "A sturdy king size platform bed with storage drawers.",
+        "price": 999.99,
+        "oldPrice": 1299.99,
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg",
+        "rating": 4.9,
+        "reviews": 320,
+        "tags": ["furniture", "bedroom", "king"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "King",
+          "style": "Modern",
+          "material": "Wood",
+          "dimensions": "76x80 inches",
+          "weight": "200 lbs",
+          "warranty": "5 years",
+          "assemblyRequired": true,
+          "features": ["Headboard", "Storage drawers"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-102",
+        "name": "Queen Upholstered Bed",
+        "description": "A queen size upholstered bed with a soft headboard.",
+        "price": 699.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.2,
+        "reviews": 88,
+        "tags": ["furniture", "bedroom", "queen"],
+        "available": true,
+        "style": "minimalist",
+        "charac": {
+          "size": "Queen",
+          "style": "Contemporary",
+          "material": "Fabric",
+          "dimensions": "60x80 inches",
+          "weight": "160 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": true,
+          "features": ["Upholstered headboard", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-101",
+        "name": "King Size Platform Bed",
+        "description": "A sturdy king size platform bed with storage drawers.",
+        "price": 999.99,
+        "oldPrice": 1299.99,
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg",
+        "rating": 4.9,
+        "reviews": 320,
+        "tags": ["furniture", "bedroom", "king"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "King",
+          "style": "Modern",
+          "material": "Wood",
+          "dimensions": "76x80 inches",
+          "weight": "200 lbs",
+          "warranty": "5 years",
+          "assemblyRequired": true,
+          "features": ["Headboard", "Storage drawers"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-102",
+        "name": "Queen Upholstered Bed",
+        "description": "A queen size upholstered bed with a soft headboard.",
+        "price": 699.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.2,
+        "reviews": 88,
+        "tags": ["furniture", "bedroom", "queen"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "Queen",
+          "style": "Contemporary",
+          "material": "Fabric",
+          "dimensions": "60x80 inches",
+          "weight": "160 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": true,
+          "features": ["Upholstered headboard", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-101",
+        "name": "King Size Platform Bed",
+        "description": "A sturdy king size platform bed with storage drawers.",
+        "price": 999.99,
+        "oldPrice": 1299.99,
+        "image": "https://images.pexels.com/photos/41162/moon-landing-apollo-11-nasa-buzz-aldrin-41162.jpeg",
+        "rating": 4.9,
+        "reviews": 320,
+        "tags": ["furniture", "bedroom", "king"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "King",
+          "style": "Modern",
+          "material": "Wood",
+          "dimensions": "76x80 inches",
+          "weight": "200 lbs",
+          "warranty": "5 years",
+          "assemblyRequired": true,
+          "features": ["Headboard", "Storage drawers"]
+        },
+        "colors": [
+          { "hex": "#8B4513", "available": true },
+          { "hex": "#D2B48C", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#8B4513",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": true }
+        ]
+      },
+      {
+        "id": "bed-102",
+        "name": "Queen Upholstered Bed",
+        "description": "A queen size upholstered bed with a soft headboard.",
+        "price": 699.99,
+        "oldPrice": 899.99,
+        "image": "https://images.pexels.com/photos/39896/space-station-moon-landing-apollo-15-james-irwin-39896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.2,
+        "reviews": 88,
+        "tags": ["furniture", "bedroom", "queen"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "Queen",
+          "style": "Contemporary",
+          "material": "Fabric",
+          "dimensions": "60x80 inches",
+          "weight": "160 lbs",
+          "warranty": "3 years",
+          "assemblyRequired": true,
+          "features": ["Upholstered headboard", "Easy assembly"]
+        },
+        "colors": [
+          { "hex": "#B0A99F", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#B0A99F",
+            "images": [
+              "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": true }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Food",
+    "products": [
+      {
+        "id": "food-001",
+        "name": "Organic Fruit Basket",
+        "description": "A basket of fresh organic fruits for a healthy lifestyle.",
+        "price": 49.99,
+        "oldPrice": 59.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 56,
+        "tags": ["food", "organic", "fruit"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "Large",
+          "style": "Gift",
+          "material": "Assorted Fruits",
+          "dimensions": "15x15x10 inches",
+          "weight": "8 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["Assorted fruits", "Eco-friendly packaging"]
+        },
+        "colors": [
+          { "hex": "#FFA500", "available": true },
+          { "hex": "#228B22", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFA500",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-002",
+        "name": "Gourmet Snack Box",
+        "description": "A box filled with gourmet snacks from around the world.",
+        "price": 39.99,
+        "oldPrice": 49.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.5,
+        "reviews": 34,
+        "tags": ["food", "gourmet", "snack"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "Medium",
+          "style": "Gift",
+          "material": "Assorted Snacks",
+          "dimensions": "12x10x6 inches",
+          "weight": "4 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["International snacks", "Reusable box"]
+        },
+        "colors": [
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFD700",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-001",
+        "name": "Organic Fruit Basket",
+        "description": "A basket of fresh organic fruits for a healthy lifestyle.",
+        "price": 49.99,
+        "oldPrice": 59.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 56,
+        "tags": ["food", "organic", "fruit"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "Large",
+          "style": "Gift",
+          "material": "Assorted Fruits",
+          "dimensions": "15x15x10 inches",
+          "weight": "8 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["Assorted fruits", "Eco-friendly packaging"]
+        },
+        "colors": [
+          { "hex": "#FFA500", "available": true },
+          { "hex": "#228B22", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFA500",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-002",
+        "name": "Gourmet Snack Box",
+        "description": "A box filled with gourmet snacks from around the world.",
+        "price": 39.99,
+        "oldPrice": 49.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.5,
+        "reviews": 34,
+        "tags": ["food", "gourmet", "snack"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "Medium",
+          "style": "Gift",
+          "material": "Assorted Snacks",
+          "dimensions": "12x10x6 inches",
+          "weight": "4 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["International snacks", "Reusable box"]
+        },
+        "colors": [
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFD700",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-001",
+        "name": "Organic Fruit Basket",
+        "description": "A basket of fresh organic fruits for a healthy lifestyle.",
+        "price": 49.99,
+        "oldPrice": 59.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 56,
+        "tags": ["food", "organic", "fruit"],
+        "available": true,
+        "style": "traditional",
+        "charac": {
+          "size": "Large",
+          "style": "Gift",
+          "material": "Assorted Fruits",
+          "dimensions": "15x15x10 inches",
+          "weight": "8 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["Assorted fruits", "Eco-friendly packaging"]
+        },
+        "colors": [
+          { "hex": "#FFA500", "available": true },
+          { "hex": "#228B22", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFA500",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-002",
+        "name": "Gourmet Snack Box",
+        "description": "A box filled with gourmet snacks from around the world.",
+        "price": 39.99,
+        "oldPrice": 49.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.5,
+        "reviews": 34,
+        "tags": ["food", "gourmet", "snack"],
+        "available": true,
+        "style": "victorian",
+        "charac": {
+          "size": "Medium",
+          "style": "Gift",
+          "material": "Assorted Snacks",
+          "dimensions": "12x10x6 inches",
+          "weight": "4 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["International snacks", "Reusable box"]
+        },
+        "colors": [
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFD700",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-001",
+        "name": "Organic Fruit Basket",
+        "description": "A basket of fresh organic fruits for a healthy lifestyle.",
+        "price": 49.99,
+        "oldPrice": 59.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 56,
+        "tags": ["food", "organic", "fruit"],
+        "available": true,
+        "style": "victorian",
+        "charac": {
+          "size": "Large",
+          "style": "Gift",
+          "material": "Assorted Fruits",
+          "dimensions": "15x15x10 inches",
+          "weight": "8 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["Assorted fruits", "Eco-friendly packaging"]
+        },
+        "colors": [
+          { "hex": "#FFA500", "available": true },
+          { "hex": "#228B22", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFA500",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-002",
+        "name": "Gourmet Snack Box",
+        "description": "A box filled with gourmet snacks from around the world.",
+        "price": 39.99,
+        "oldPrice": 49.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.5,
+        "reviews": 34,
+        "tags": ["food", "gourmet", "snack"],
+        "available": true,
+        "style": "victorian",
+        "charac": {
+          "size": "Medium",
+          "style": "Gift",
+          "material": "Assorted Snacks",
+          "dimensions": "12x10x6 inches",
+          "weight": "4 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["International snacks", "Reusable box"]
+        },
+        "colors": [
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFD700",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-001",
+        "name": "Organic Fruit Basket",
+        "description": "A basket of fresh organic fruits for a healthy lifestyle.",
+        "price": 49.99,
+        "oldPrice": 59.99,
+        "image": "https://images.pexels.com/photos/10639542/pexels-photo-10639542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "rating": 4.8,
+        "reviews": 56,
+        "tags": ["food", "organic", "fruit"],
+        "available": true,
+        "style": "coastal",
+        "charac": {
+          "size": "Large",
+          "style": "Gift",
+          "material": "Assorted Fruits",
+          "dimensions": "15x15x10 inches",
+          "weight": "8 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["Assorted fruits", "Eco-friendly packaging"]
+        },
+        "colors": [
+          { "hex": "#FFA500", "available": true },
+          { "hex": "#228B22", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFA500",
+            "images": [
+              "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": false },
+          { "size": "M", "available": true },
+          { "size": "L", "available": true },
+          { "size": "XL", "available": false }
+        ]
+      },
+      {
+        "id": "food-002",
+        "name": "Gourmet Snack Box",
+        "description": "A box filled with gourmet snacks from around the world.",
+        "price": 39.99,
+        "oldPrice": 49.99,
+        "image": "https://images.pexels.com/photos/3614082/pexels-photo-3614082.jpeg",
+        "rating": 4.5,
+        "reviews": 34,
+        "tags": ["food", "gourmet", "snack"],
+        "available": true,
+        "style": "coastal",
+        "charac": {
+          "size": "Medium",
+          "style": "Gift",
+          "material": "Assorted Snacks",
+          "dimensions": "12x10x6 inches",
+          "weight": "4 lbs",
+          "warranty": "N/A",
+          "assemblyRequired": false,
+          "features": ["International snacks", "Reusable box"]
+        },
+        "colors": [
+          { "hex": "#FFD700", "available": true },
+          { "hex": "#FFFFFF", "available": true }
+        ],
+        "images": [
+          {
+            "color": "#FFD700",
+            "images": [
+              "https://images.pexels.com/photos/265004/pexels-photo-265004.jpeg"
+            ]
+          }
+        ],
+        "sizes": [
+          { "size": "S", "available": true },
+          { "size": "M", "available": true },
+          { "size": "L", "available": false },
+          { "size": "XL", "available": false }
+        ]
+      }
+    ]
+  }
+]
