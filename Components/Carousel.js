@@ -12,6 +12,7 @@ export default function initializeCarousel() {
   const Slides = emblaNode.querySelector(".embla__container");
   const SlidesLength = Slides.querySelectorAll(".embla__slide").length;
   const carouselIndicator = document.querySelector(".carousel-indicator");
+  console.log(SlidesLength);
 
   for (let i = 0; i < SlidesLength; i++) {
     const indicator = document.createElement("span");
@@ -35,9 +36,9 @@ export default function initializeCarousel() {
       indicator.classList.add("active");
       last_snap = index;
     });
-    // indicator.style.flex = `0 0 ${
-    //   (carouselIndicator.clientWidth - 8 * SlidesLength) / SlidesLength
-    // }px`;
+    indicator.style.flex = `0 0 ${
+      (carouselIndicator.clientWidth - 8 * SlidesLength) / SlidesLength
+    }px`;
   });
 
   emblaApi.on("slidesInView", () => {
@@ -53,16 +54,16 @@ export default function initializeCarousel() {
     resizedcomponentClassName
   ) {
     // --------------
-    const ReferenceElement = document.querySelector(
-      `${referencecomponentClassName}`
-    );
-    const ResizedElements = document.querySelectorAll(
-      `${resizedcomponentClassName}`
-    );
+    // const ReferenceElement = document.querySelector(
+    //   `${referencecomponentClassName}`
+    // );
+    // const ResizedElements = document.querySelectorAll(
+    //   `${resizedcomponentClassName}`
+    // );
 
-    ResizedElements.forEach((element) => {
-      element.style.flex = `0 0 ${ReferenceElement.clientWidth - 80}px`;
-    });
+    // ResizedElements.forEach((element) => {
+    //   element.style.flex = `0 0 ${ReferenceElement.clientWidth - 80}px`;
+    // });
 
     indicators.forEach((indicator) => {
       indicator.style.flex = `0 0 ${
@@ -72,7 +73,7 @@ export default function initializeCarousel() {
     // --------------
   }
 
-  ComponentResizer(".carousel-layout", ".carousel-card");
+  // ComponentResizer(".carousel-layout", ".carousel-card");
 
   window.addEventListener("resize", () => {
     ComponentResizer(".carousel-layout", ".carousel-card");

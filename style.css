@@ -965,6 +965,7 @@
   }
   .carousel-product-heading {
     font-size: 1.6rem;
+    line-height: 1.3;
   }
   /* indicator */
   .embla__controls {
@@ -993,13 +994,24 @@
   }
   .embla {
     overflow: hidden;
+    /* max-width: 48rem; */
+    margin: auto;
+    --slide-height: 19rem;
+    --slide-spacing: 1rem;
+    --slide-size: 85%;
   }
   .embla__container {
     display: flex;
+    touch-action: pan-y pinch-zoom;
+    width: 100%;
   }
   .embla__slide {
-    flex: 0 0 100%;
+    /* flex: 0 0 100%;
+    min-width: 0; */
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
     min-width: 0;
+    padding-left: var(--slide-spacing);
   }
   .embla .features {
     list-style: disc;
