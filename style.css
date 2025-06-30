@@ -773,16 +773,25 @@
     text-align: center;
   }
   .inspir-explore-btn {
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem;
     background-color: var(--explore-btn-bg-color);
     font-weight: 550;
     color: white;
     width: fit-content;
     box-shadow: 0 0 15px rgba(94, 90, 90, 0.253);
+    transition: background-color 0.2s ease; */
+    padding: 1rem 2rem;
+    background-color: #141311;
+    margin-top: 2rem;
+    font-weight: 550;
+    color: white;
+    border-radius: 33px;
+    width: fit-content;
+    box-shadow: 0 0 15px rgba(131, 123, 123, 0.253);
     transition: background-color 0.2s ease;
   }
   .inspir-explore-btn:hover {
-    background-color: var(--explore-btn-bg-color-hover);
+    background-color: #292723;
   }
 
   /* footer */
