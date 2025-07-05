@@ -181,6 +181,7 @@
     border-radius: 12px;
     height: 100%;
     max-width: 500px;
+    margin-inline: auto;
   }
   .product-picture {
     position: relative;
@@ -952,6 +953,12 @@
     opacity: 1;
     margin: 0;
     line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .carousel-product-heading {
     font-size: 1.6rem;
@@ -1754,7 +1761,7 @@
   .product-info-container-p {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
     justify-content: space-between;
     margin-top: 3rem;
     padding-block: 2rem;
@@ -1795,6 +1802,103 @@
     flex-direction: column;
     gap: 1.5rem;
     padding: 1rem 0;
+    max-width: 800px;
+    width: 100%;
+    margin-inline: auto;
+    font-weight: 550;
+    color: #312f2f;
+    font-size: 0.95rem;
+  }
+  .desc-images {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: stretch;
+  }
+  .desc-image-container {
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    max-height: 400px;
+    min-width: 300px;
+  }
+  .desc-image {
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: bottom;
+  }
+  /* table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  thead {
+    color: black;
+  }
+  tbody {
+    color: #333;
+  }
+  th,
+  td {
+    padding: 0.8rem;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-weight: 550;
+    color: inherit;
+  }
+  /* reviews sec */
+  .reviews-header {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+    flex-direction: column;
+    font-weight: 550;
+  }
+  .review-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .user-image-container {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .user-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .review-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    gap: 0.3rem;
+  }
+  .review-comment {
+    margin: 0;
+  }
+  .review-list-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .reviews-list {
+    margin-top: 3rem;
+  }
+  .review-author {
+    font-weight: 550;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    margin-right: 1rem;
   }
 }
 

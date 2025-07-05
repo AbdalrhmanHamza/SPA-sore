@@ -1,6 +1,6 @@
 import Router from "./Services/Router.js";
-import "https://unpkg.com/embla-carousel/embla-carousel.umd.js";
-import "https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js";
+// import "https://unpkg.com/embla-carousel/embla-carousel.umd.js";
+// import "https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js";
 import API from "./Services/API.js";
 import Shop from "./Components/Shop.js";
 import Product from "./Components/Product-Components/Product.js";

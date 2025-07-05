@@ -744,7 +744,9 @@
         <div class="product-info-navigator">
           <ul class="product-info-nav-list">
             <li>
-              <a href="/description" class="description info-link info-active"
+              <a
+                href="/info-description"
+                class="description info-link info-active"
                 >Description</a
               >
             </li>
@@ -754,7 +756,7 @@
               >
             </li>
             <li>
-              <a href="/description" class="reviews info-link">Reviews</a>
+              <a href="/info-reviews" class="reviews info-link">Reviews</a>
             </li>
           </ul>
         </div>
@@ -1032,6 +1034,33 @@
               <p class="feature-description">Dedicated support</p>
             </div>
           </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- table -->
+    <template id="table-template">
+      <table>
+        <thead class="table-head">
+          <tr></tr>
+        </thead>
+
+        <tbody class="table-body">
+          <!-- Table rows will be inserted here -->
+          <tr class="table-row"></tr>
+        </tbody>
+      </table>
+    </template>
+
+    <!-- reviews template -->
+    <template id="reviews-template">
+      <div class="reviews-container">
+        <div class="reviews-header">
+          <h2 class="reviews-title">Reviews</h2>
+          <span class="reviews-count">0 Reviews</span>
+        </div>
+        <div class="reviews-list">
+          <ul class="review-list-ul"></ul>
         </div>
       </div>
     </template>

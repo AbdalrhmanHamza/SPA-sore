@@ -19,7 +19,9 @@ export default class ProductItem extends HTMLElement {
     productImg.src = productData.image;
     ProductLink.href = `/product?id=${productData.id}`; // Assuming the product ID is used in the URL
     productTitle.textContent = productData.name;
+    productTitle.setAttribute("title", productData.name);
     productDesc.textContent = productData.description;
+    productDesc.setAttribute("title", productData.description);
     productPrice.textContent = `$${productData.price}`;
     oldPrice.textContent = `$${productData.oldPrice}`;
   }

@@ -42,8 +42,6 @@ class Product extends HTMLElement {
     this.container = this.querySelector(".product-page-container");
     // render the content of the product
     this.render();
-
-    const barcode = new BarcodeDetector();
   }
 }
 
