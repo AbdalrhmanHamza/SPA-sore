@@ -12,6 +12,7 @@ class Product extends HTMLElement {
     const url = new URL(window.location.href);
     const productId = url.searchParams.get("id");
     const product = getProductById(productId);
+    app.router.setMetaData(`${product.name} - Asteroids Store`, "#000000");
 
     if (!product) {
       this.container.innerHTML = `<h1>No Product with ID: ${productId} was found.</h1>`;

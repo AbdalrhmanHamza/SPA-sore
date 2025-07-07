@@ -207,7 +207,33 @@
           { "size": "M", "available": true },
           { "size": "L", "available": true },
           { "size": "XL", "available": false }
-        ]
+        ],
+        "product-info": {
+          "info-description": "Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+          "info-images": [
+            "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+            "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+          ],
+          "info-reviews": [
+            {
+              "user": "John Doe",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 5,
+              "comment": "Absolutely love this sofa! It's so comfortable and stylish."
+            },
+            {
+              "user": "Jane Smith",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 4,
+              "comment": "Great quality, but the color is slightly different than expected."
+            }
+          ],
+          "additional-info": {
+            "warranty": "3 years",
+            "return-policy": "30 days return policy",
+            "shipping-info": "Free shipping on orders over $500"
+          }
+        }
       },
       {
         "id": "sofa-002",
@@ -249,7 +275,33 @@
           { "size": "M", "available": false },
           { "size": "L", "available": true },
           { "size": "XL", "available": true }
-        ]
+        ],
+        "product-info": {
+          "info-description": "Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+          "info-images": [
+            "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+            "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+          ],
+          "info-reviews": [
+            {
+              "user": "John Doe",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 5,
+              "comment": "Absolutely love this sofa! It's so comfortable and stylish."
+            },
+            {
+              "user": "Jane Smith",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 4,
+              "comment": "Great quality, but the color is slightly different than expected."
+            }
+          ],
+          "additional-info": {
+            "warranty": "3 years",
+            "return-policy": "30 days return policy",
+            "shipping-info": "Free shipping on orders over $500"
+          }
+        }
       },
       {
         "id": "sofa-001",
@@ -341,7 +393,33 @@
           { "size": "M", "available": false },
           { "size": "L", "available": true },
           { "size": "XL", "available": true }
-        ]
+        ],
+        "product-info": {
+          "info-description": "Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+          "info-images": [
+            "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+            "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+          ],
+          "info-reviews": [
+            {
+              "user": "John Doe",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 5,
+              "comment": "Absolutely love this sofa! It's so comfortable and stylish."
+            },
+            {
+              "user": "Jane Smith",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 4,
+              "comment": "Great quality, but the color is slightly different than expected."
+            }
+          ],
+          "additional-info": {
+            "warranty": "3 years",
+            "return-policy": "30 days return policy",
+            "shipping-info": "Free shipping on orders over $500"
+          }
+        }
       },
       {
         "id": "sofa-001",
@@ -433,7 +511,33 @@
           { "size": "M", "available": false },
           { "size": "L", "available": true },
           { "size": "XL", "available": true }
-        ]
+        ],
+        "product-info": {
+          "info-description": "Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+          "info-images": [
+            "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+            "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+          ],
+          "info-reviews": [
+            {
+              "user": "John Doe",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 5,
+              "comment": "Absolutely love this sofa! It's so comfortable and stylish."
+            },
+            {
+              "user": "Jane Smith",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 4,
+              "comment": "Great quality, but the color is slightly different than expected."
+            }
+          ],
+          "additional-info": {
+            "warranty": "3 years",
+            "return-policy": "30 days return policy",
+            "shipping-info": "Free shipping on orders over $500"
+          }
+        }
       },
       {
         "id": "sofa-001",
@@ -525,7 +629,33 @@
           { "size": "M", "available": false },
           { "size": "L", "available": true },
           { "size": "XL", "available": true }
-        ]
+        ],
+        "product-info": {
+          "info-description": "Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+          "info-images": [
+            "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+            "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+          ],
+          "info-reviews": [
+            {
+              "user": "John Doe",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 5,
+              "comment": "Absolutely love this sofa! It's so comfortable and stylish."
+            },
+            {
+              "user": "Jane Smith",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 4,
+              "comment": "Great quality, but the color is slightly different than expected."
+            }
+          ],
+          "additional-info": {
+            "warranty": "3 years",
+            "return-policy": "30 days return policy",
+            "shipping-info": "Free shipping on orders over $500"
+          }
+        }
       },
       {
         "id": "sofa-001",
@@ -617,7 +747,33 @@
           { "size": "M", "available": false },
           { "size": "L", "available": true },
           { "size": "XL", "available": true }
-        ]
+        ],
+        "product-info": {
+          "info-description": "Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+          "info-images": [
+            "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+            "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+          ],
+          "info-reviews": [
+            {
+              "user": "John Doe",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 5,
+              "comment": "Absolutely love this sofa! It's so comfortable and stylish."
+            },
+            {
+              "user": "Jane Smith",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 4,
+              "comment": "Great quality, but the color is slightly different than expected."
+            }
+          ],
+          "additional-info": {
+            "warranty": "3 years",
+            "return-policy": "30 days return policy",
+            "shipping-info": "Free shipping on orders over $500"
+          }
+        }
       },
       {
         "id": "sofa-001",
@@ -709,7 +865,33 @@
           { "size": "M", "available": false },
           { "size": "L", "available": true },
           { "size": "XL", "available": true }
-        ]
+        ],
+        "product-info": {
+          "info-description": "Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.",
+          "info-images": [
+            "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+            "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg"
+          ],
+          "info-reviews": [
+            {
+              "user": "John Doe",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 5,
+              "comment": "Absolutely love this sofa! It's so comfortable and stylish."
+            },
+            {
+              "user": "Jane Smith",
+              "image": "https://images.pexels.com/photos/2986011/pexels-photo-2986011.jpeg",
+              "rating": 4,
+              "comment": "Great quality, but the color is slightly different than expected."
+            }
+          ],
+          "additional-info": {
+            "warranty": "3 years",
+            "return-policy": "30 days return policy",
+            "shipping-info": "Free shipping on orders over $500"
+          }
+        }
       }
     ]
   },

@@ -22,46 +22,46 @@ const Router = {
     if (addToHistory) {
       history.pushState(null, "", path);
     }
-    console.log("path", path);
 
     let Url = new URL(path, window.location.origin);
-    if (Url.searchParams.has("p")) {
-      path = Url.pathname;
-    } else if (Url.searchParams.has("id") && Url.pathname === "/product") {
-      path = Url.pathname;
-    }
+    // if (Url.searchParams.has("p")) {
+    //   path = Url.pathname;
+    // } else if (Url.searchParams.has("id") && Url.pathname === "/product") {
+    //   path = Url.pathname;
+    // }
+    path = Url.pathname;
 
     const root = document.getElementById("main-section");
     let pageElement = null;
-    const header = document.getElementById("header");
-    const headerTemplate = header.content.cloneNode(true);
+    // const header = document.getElementById("header");
+    // const headerTemplate = header.content.cloneNode(true);
     const footer = document.getElementById("footer-sec");
     const footerTemplate = footer.content.cloneNode(true);
 
     switch (path) {
       case "/":
-        // Router.setMetaData("Asteroids Store", "green");
+        Router.setMetaData("Asteroids Store", "green");
         pageElement = document.getElementById("home");
         render(pageElement.content.cloneNode(true), initializeCarousel);
         break;
       case "/shop":
-        // Router.setMetaData("Shop - Asteroids Store", "#000000");
+        Router.setMetaData("Shop - Asteroids Store", "green");
         pageElement = document.createElement("shop-component");
         render(pageElement);
         break;
       case "/about":
+        Router.setMetaData("About - Asteroids Store", "green");
         pageElement = document.getElementById("about");
         render(pageElement.content.cloneNode(true));
         break;
       case "/product":
-        // const productId = Url.searchParams.get("id");
         pageElement = document.createElement("product-component");
         render(pageElement);
-        // if (productId) {
-        //   console.log("pageElement", pageElement);
-        // } else {
-        //   render();
-        // }
+        break;
+      case "/cart":
+        Router.setMetaData("Cart - Asteroids Store", "green");
+        pageElement = document.createElement("cart-container");
+        render(pageElement);
         break;
       default:
         render();
@@ -69,7 +69,7 @@ const Router = {
 
     function render(element, call = null) {
       root.innerHTML = "";
-      root.appendChild(headerTemplate);
+      // root.appendChild(headerTemplate);
       if (element) {
         root.appendChild(element);
       } else {

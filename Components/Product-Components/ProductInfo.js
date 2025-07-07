@@ -6,11 +6,10 @@ class ProductInfo extends HTMLElement {
 
   render() {
     const productInfo = JSON.parse(this.dataset.product);
-    console.log(productInfo);
     const contentContainer = this.querySelector(
       ".product-info-viewer-container-p"
     );
-    const Description = productInfo["info-description"];
+    // const Description = productInfo["info-description"];
     const navigation = this.querySelectorAll(".info-link");
     const container = this.querySelector(".product-info-container-p");
     let currentView = this.querySelector(".info-active");

@@ -32,7 +32,6 @@ class Shop extends HTMLElement {
     this.container.querySelector("pagination-component").remove();
     let products = fetchProducts(this.filters);
     const numOfProducts = products.length;
-    console.log(numOfProducts, "numOfProducts");
 
     const startIndex = ((this.Url.searchParams.get("p") || 1) - 1) * this.Limit;
     const endIndex = startIndex + this.Limit;
@@ -98,6 +97,11 @@ class Shop extends HTMLElement {
     this.container.appendChild(featuresContent);
   }
 
+  updateFilter(e) {
+    e.stopPropagation();
+    this.reRenderProducts();
+  }
+
   connectedCallback() {
     const template = document.getElementById("shop");
     const content = template.content.cloneNode(true);
@@ -108,10 +112,11 @@ class Shop extends HTMLElement {
     // Initial render
     this.render();
     // Add event listener for filter updates
-    window.addEventListener("filterUpdated", (e) => {
-      e.stopPropagation();
-      this.reRenderProducts();
-    });
+    window.addEventListener("filterUpdated", this.updateFilter.bind(this));
+  }
+  disconnectedCallback() {
+    // Clean up event listener
+    window.removeEventListener("filterUpdated", this.updateFilter.bind(this));
   }
 }
 

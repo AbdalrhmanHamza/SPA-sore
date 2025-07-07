@@ -12,7 +12,6 @@ export default function initializeCarousel() {
   const Slides = emblaNode.querySelector(".embla__container");
   const SlidesLength = Slides.querySelectorAll(".embla__slide").length;
   const carouselIndicator = document.querySelector(".carousel-indicator");
-  console.log(SlidesLength);
 
   for (let i = 0; i < SlidesLength; i++) {
     const indicator = document.createElement("span");

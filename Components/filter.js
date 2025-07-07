@@ -113,7 +113,6 @@ function Filter() {
         list.classList.add("hidden");
         // Update filters object
         filters[selector.dataset.type] = item.textContent.toLowerCase();
-        console.log(filters);
       });
     });
   });

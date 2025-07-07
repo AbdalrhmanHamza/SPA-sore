@@ -1,4 +1,7 @@
 import ExportProduct from "../../utils/exportProduct.js";
+import StoreProxy from "../../Services/Store.js";
+import { getProductById } from "../../Services/FetchProducts.js";
+import { updateStore } from "../../utils/updateStore.js";
 
 class ProductPurchase extends HTMLElement {
   constructor() {
@@ -75,29 +78,55 @@ class ProductPurchase extends HTMLElement {
     const addToCartButton = productViewContainer.querySelector(
       ".add-to-cart-component-btn"
     );
-
+    // Add to Cart Logic
     addToCartButton.addEventListener("click", () => {
       const productId = new URLSearchParams(window.location.search).get("id");
       const title = this.productInfo.name || "Unknown Product";
       const price = parseFloat(this.productInfo.price || null).toFixed(2);
       const image = this.productInfo.image || null;
       const color = this.SelectUnitsState.color || null;
+      const availableColors = this.productInfo.colors;
       const size = this.SelectUnitsState.size || null;
+      const availableSizes = this.productInfo.sizes;
       const quantity = this.SelectUnitsState.quantity;
+      const category = getProductById(this.productInfo.id, true);
       const exportProduct = new ExportProduct(
         title,
         price,
         productId,
         image,
         color,
+        availableColors,
         size,
-        quantity
+        availableSizes,
+        quantity,
+        category
       );
       const exportedProduct = exportProduct.export();
-      const event = new CustomEvent("addToCart", {
-        detail: exportedProduct,
-      });
-      document.dispatchEvent(event);
+      // Check if the product already exists in the cart
+      const existingProductIndex = StoreProxy.cart.findIndex(
+        (item) =>
+          item.id === exportedProduct.id &&
+          item.color === exportedProduct.color &&
+          item.size === exportedProduct.size
+      );
+
+      if (existingProductIndex !== -1) {
+        updateStore(
+          {
+            ...exportedProduct,
+            idx: StoreProxy.cart[existingProductIndex].idx,
+          },
+          true,
+          true,
+          {
+            quantity: StoreProxy.cart[existingProductIndex].quantity + quantity,
+          }
+        );
+      } else {
+        // If it doesn't exist, add it to the cart
+        updateStore(exportedProduct, false, false, exportedProduct);
+      }
     });
 
     const compareButton = productViewContainer.querySelector(

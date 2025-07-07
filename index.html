@@ -17,55 +17,55 @@
   </head>
   <body>
     <!-- header -->
-    <template id="header">
-      <header class="sotre-header">
-        <div class="header-container">
-          <div class="logo">
-            <a href="/" class="nav-link logo-link">
-              <img
-                class="logo-img"
-                src="./public/Logo.svg"
-                alt="Asteroids Store Logo"
-              />
-            </a>
-          </div>
-          <nav class="nav-bar">
-            <ul>
-              <li><a class="nav-link" href="/">Home</a></li>
-              <li><a class="nav-link" href="/shop">Shop</a></li>
-              <li><a class="nav-link" href="/about">About</a></li>
-              <li><a class="nav-link" href="/contact">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="state-info">
-            <ul class="state-info-list">
-              <li>
-                <a href="/user" class="info-link nav-link"
-                  ><img src="./public/info-account.svg" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="" class="info-link nav-link"
-                  ><img src="./public/info-search.svg" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="/saved" class="info-link nav-link"
-                  ><img src="./public/infor-heart.svg" alt="" />
-                  <span class="badge-count">9+</span>
-                </a>
-              </li>
-              <li>
-                <a href="/cart" class="info-link nav-link"
-                  ><img src="./public/info-cart.svg" alt="" />
-                  <span class="badge-count">5</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+    <!-- <template id="header"> -->
+    <header class="sotre-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="/" class="nav-link logo-link">
+            <img
+              class="logo-img"
+              src="./public/Logo.svg"
+              alt="Asteroids Store Logo"
+            />
+          </a>
         </div>
-      </header>
-    </template>
+        <nav class="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="/">Home</a></li>
+            <li><a class="nav-link" href="/shop">Shop</a></li>
+            <li><a class="nav-link" href="/about">About</a></li>
+            <li><a class="nav-link" href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="state-info">
+          <ul class="state-info-list">
+            <li>
+              <a href="/user" class="info-link nav-link"
+                ><img src="./public/info-account.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="" class="info-link nav-link"
+                ><img src="./public/info-search.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="/saved" class="info-link nav-link"
+                ><img src="./public/infor-heart.svg" alt="" />
+                <span class="badge-count">9+</span>
+              </a>
+            </li>
+            <li>
+              <a href="/cart" class="info-link nav-link"
+                ><img src="./public/info-cart.svg" alt="" />
+                <span class="badge-count cart-badge" hidden></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- </template> -->
 
     <!-- main Content -->
     <main id="main-section" class="main-section"></main>
@@ -1061,6 +1061,81 @@
         </div>
         <div class="reviews-list">
           <ul class="review-list-ul"></ul>
+        </div>
+      </div>
+    </template>
+
+    <!-- cart layout -->
+    <template class="cart-layout-template">
+      <div class="cart-container-layout-contain">
+        <h1 class="cart-title">Cart</h1>
+        <div class="cart-layout-container">
+          <!-- cart items -->
+          <div class="cart-items-layout"></div>
+          <!-- cart info -->
+          <div class="cart-info-layout">
+            <div class="cart-info-data">
+              <h2 class="cart-info-total">Cart Totals</h2>
+              <div class="cart-info-amount">
+                <span class="cart-info-label">Subtotal:</span>
+                <span class="cart-info-value sub-total">$0.00</span>
+              </div>
+              <!-- <div class="cart-info-amount">
+                <span class="cart-info-label">Shipping:</span>
+                <span class="cart-info-value">$0.00</span>
+              </div> -->
+              <div class="cart-info-amount">
+                <span class="cart-info-label">Total:</span>
+                <span class="cart-info-value total">$0.00</span>
+              </div>
+              <div class="cart-info-buttons">
+                <a href="/checkout" class="cart-continue-shopping-btn nav-link">
+                  Proceed to Checkout
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- cart Item -->
+    <template class="cart-item-template">
+      <div class="cart-item-container">
+        <div class="cart-product-items">
+          <!-- product image -->
+          <div class="product-info-wrapper-cart">
+            <div class="cart-p-image-container">
+              <img src="" alt="" class="cart-product-image" />
+            </div>
+            <!-- product info -->
+            <div class="cart-product-info">
+              <a href="" class="cart-item-anchor nav-link">
+                <h2 class="cart-p-title"></h2>
+              </a>
+              <h5><a href="" class="p-category-anchor nav-link"></a></h5>
+            </div>
+          </div>
+          <!-- product quantity -->
+          <!-- <div class="cart-item-info-wrapper"> -->
+          <div class="quantity-info">
+            <button class="change-q increment q-cart-item">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <span class="quantity-value">1</span>
+            <button class="change-q decrement q-cart-item">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+          </div>
+          <!-- product colors -->
+          <ul class="size-options color-options select-unit" data-unit="color">
+            <!-- place holder for product colors -->
+          </ul>
+          <!-- remove button -->
+          <button class="remove-cart-item-btn">
+            <i class="fa-regular fa-xmark"></i>
+          </button>
+          <!-- </div> -->
         </div>
       </div>
     </template>

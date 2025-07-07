@@ -33,16 +33,12 @@ function fetchProducts(filters = {}) {
   return products;
 }
 
-function getProductById(id) {
-  console.log("product ID:", id);
-  console.log(app.products);
-  let c = 1;
+function getProductById(id, getCategory = false) {
   for (let i = 0; i < app.products.length; i++) {
     let product = app.products[i].products.find((item) => item.id == id);
-    console.log(product);
-    console.log("Searching in category:", app.products[i].category);
     if (product != undefined) {
-      return product;
+      if (!getCategory) return product;
+      return app.products[i].category;
     } else {
       continue;
     }
