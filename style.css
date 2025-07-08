@@ -2044,6 +2044,7 @@
   button.select-color-btn.color-cart-btn {
     width: 22px;
     height: 22px;
+    border: 1px solid #e3dbdb;
   }
   .cart-item-info-wrapper {
     display: flex;
