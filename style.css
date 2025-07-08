@@ -2051,6 +2051,9 @@
     gap: 1rem;
     justify-content: space-between;
   }
+  .pag-link {
+    padding-inline: 1rem;
+  }
 }
 
 @layer utilities {
