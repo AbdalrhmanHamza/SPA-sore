@@ -8,7 +8,6 @@ export default function initializeCarousel() {
   prevButtonNode.addEventListener("click", emblaApi.scrollPrev, false);
   nextButtonNode.addEventListener("click", emblaApi.scrollNext, false);
 
-  // window.addEventListener("DOMContentLoaded", () => {
   const Slides = emblaNode.querySelector(".embla__container");
   const SlidesLength = Slides.querySelectorAll(".embla__slide").length;
   const carouselIndicator = document.querySelector(".carousel-indicator");
@@ -48,36 +47,17 @@ export default function initializeCarousel() {
       last_snap = currentIndex;
     }
   });
-  function ComponentResizer(
-    referencecomponentClassName,
-    resizedcomponentClassName
-  ) {
-    // --------------
-    // const ReferenceElement = document.querySelector(
-    //   `${referencecomponentClassName}`
-    // );
-    // const ResizedElements = document.querySelectorAll(
-    //   `${resizedcomponentClassName}`
-    // );
-
-    // ResizedElements.forEach((element) => {
-    //   element.style.flex = `0 0 ${ReferenceElement.clientWidth - 80}px`;
-    // });
-
+  function ComponentResizer() {
     indicators.forEach((indicator) => {
       indicator.style.flex = `0 0 ${
         (carouselIndicator.clientWidth - 8 * SlidesLength) / SlidesLength
       }px`;
     });
-    // --------------
   }
-
-  // ComponentResizer(".carousel-layout", ".carousel-card");
 
   window.addEventListener("resize", () => {
     ComponentResizer(".carousel-layout", ".carousel-card");
   });
-  // });
 
   const cards = document.querySelector(".carousel-cards");
   let isDragging = false;
