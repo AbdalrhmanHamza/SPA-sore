@@ -1,5 +1,6 @@
 import ExportProduct from "../utils/exportProduct.js";
 import { updateStore, removeFromStore } from "../utils/updateStore.js";
+// this component need optimization
 
 class CartItem extends HTMLElement {
   constructor() {
@@ -26,6 +27,7 @@ class CartItem extends HTMLElement {
     const sizes = this.info.availableSizes || "N/A";
     const image = this.info.image || "default-image.jpg";
     const productId = this.info.productId || "N/A";
+    const idx = this.info.idx;
     // dom elements
     const itemImage = this.querySelector(".cart-product-image");
     const itemTitle = this.querySelector(".cart-p-title");
@@ -43,7 +45,7 @@ class CartItem extends HTMLElement {
 
     // remove logic
     removeButton.addEventListener("click", () => {
-      removeFromStore(productId, quantity, size, color);
+      removeFromStore(productId, quantity, size, color, idx);
     });
 
     // quantity logic

@@ -35,7 +35,7 @@ function updateStore(
   }
 }
 
-function removeFromStore(productId, quantity, size, color) {
+function removeFromStore(productId, quantity, size, color, idx) {
   cart = Store.cart;
   cart = cart.filter(
     (item) =>
@@ -43,7 +43,8 @@ function removeFromStore(productId, quantity, size, color) {
         item.productId === productId &&
         item.size === size &&
         item.color === color &&
-        item.quantity === quantity
+        item.quantity === quantity &&
+        item.idx === idx
       )
   );
   StoreProxy.cart = cart;

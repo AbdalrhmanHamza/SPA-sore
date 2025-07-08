@@ -2,7 +2,7 @@ import ExportProduct from "../../utils/exportProduct.js";
 import StoreProxy from "../../Services/Store.js";
 import { getProductById } from "../../Services/FetchProducts.js";
 import { updateStore } from "../../utils/updateStore.js";
-
+// this component need optimization
 class ProductPurchase extends HTMLElement {
   constructor() {
     super();
@@ -152,8 +152,12 @@ class ProductPurchase extends HTMLElement {
       }
       if (currentImage === null) {
         currentImage = productImage[0];
+        currentImage.classList.add("active");
+        image.closest(".product-image-preview").classList.add("active");
         mainImage.src = currentImage.src;
       }
+      // changing the current image
+      // the optimization oppurtunity her is to use IntersectionObserver
       image.addEventListener("click", () => {
         if (image.classList.contains("active")) {
           return;
